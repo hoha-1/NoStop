@@ -39,7 +39,6 @@ tipOffApp.get("/article",function(req,res){
                     lastModified:-1
                 }
             }).then(rs=>{
-                console.log(rs)
                 res.send({
                     status:200,
                     message:"查询成功",

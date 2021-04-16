@@ -1,5 +1,5 @@
 const apiAddr={
-    hostAddr:"http://119.23.62.201:8888",
+    hostAddr:"http://localhost:8888",
     uploadImgApiAddr:"/api/v1/uploadImg",
     getImgApiAddr:"/api/v1/img",
     authenticationApiAddr:"/api/v1/authentication",
